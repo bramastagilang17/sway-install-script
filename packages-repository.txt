@@ -31,6 +31,7 @@ brightnessctl
 wl-clipboard
 dex
 ttf-jetbrains-mono
-ttf-ubuntu-font-family
 alacritty
 neovim
+scssc
+gnome-themes-extra

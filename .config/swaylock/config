@@ -5,7 +5,7 @@ indicator-caps-lock
 # datestr=%A
 image=$HOME/.config/sway/lockscreen.jpg
 scaling=fill
-font=UbuntuMono
+font=JetBrainsMono
 font-size=20
 
 # Ring
