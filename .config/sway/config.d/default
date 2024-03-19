@@ -21,7 +21,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu wofi --show drun
+set $menu wofi --show drun | swaynmsg
 
 ### Idle configuration
 exec swayidle -w\
@@ -41,8 +41,10 @@ exec swayidle -w\
     bindsym $mod+Return exec $term
 
     # Open the power menu
-    # bindsym $mod+Shift+e exec $powermenu
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+x exec ~/.config/sway/scripts/powermenu.sh
+
+    # Exit sway
+    # bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 
     # Kill focused window
     bindsym $mod+q kill
@@ -202,6 +204,9 @@ bindsym $mod+r mode "resize"
     bindsym XF86AudioPause exec playerctl pause
     bindsym XF86AudioNext exec playerctl next
     bindsym XF86AudioPrev exec playerctl previous
+
+    # Control for play-pause button
+    bindcode 172 exec playerctl play-pause
 #
 # Backlight
 #

@@ -7,8 +7,9 @@ lxappearance
 polkit-gnome
 thunar
 thunar-archive-plugin
-file-roller
 thunar-volman
+gvfs
+file-roller
 grim
 slurp
 awesome-terminal-fonts
@@ -33,5 +34,3 @@ dex
 ttf-jetbrains-mono
 alacritty
 neovim
-scssc
-gnome-themes-extra

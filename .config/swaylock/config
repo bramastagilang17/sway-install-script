@@ -3,7 +3,7 @@
 # daemonize
 indicator-caps-lock
 # datestr=%A
-image=$HOME/.config/sway/lockscreen.jpg
+image=$HOME/.config/sway/lockscreen.png
 scaling=fill
 font=JetBrainsMono
 font-size=20
