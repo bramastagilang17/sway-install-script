@@ -2,7 +2,7 @@
 opacity = 0.75
 blur = true
 [font]
-normal = { family = "JetBrains Mono Nerd Font", style = "Regular" }
-size = 10.75
+normal = { family = "Fira Mono Nerd Font", style = "Regular" }
+size = 11
 [cursor]
 style = { shape = "Underline", blinking = "Always" }
