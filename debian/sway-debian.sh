@@ -14,7 +14,7 @@ mkdir ~/Screenshots/
 sudo apt install -y sway swaylock swayidle swaybg waybar wofi
 
 # File manager
-sudo apt install -y thunar thunar-archive-plugin thunar-volan gvfs file-roller
+sudo apt install -y thunar thunar-archive-plugin thunar-volman gvfs file-roller
 
 # Terminal
 sudo apt install -y alacritty foot
@@ -23,7 +23,7 @@ sudo apt install -y alacritty foot
 sudo apt install -y ffmpeg
 
 # Brightness and audio control
-sudo apt install -y brightnessctl pactl
+sudo apt install -y brightnessctl pulseaudio-utils
 
 # Screenshot
 sudo apt install -y grim slurp
